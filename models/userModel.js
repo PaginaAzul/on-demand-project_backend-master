@@ -1,0 +1,187 @@
+var mongoose=require('mongoose');
+const mongoosePaginate = require('mongoose-paginate');
+var mongooseAggregatePaginate = require('mongoose-aggregate-paginate');
+var Schema = mongoose.Schema;
+var User=mongoose.Schema({
+
+    location: {
+        type: { type: String, default: 'Point', enum: ['Point'] },
+        coordinates: [{ type: Number, createIndexes: true }],
+    },
+    fullName:{
+        type:String
+    },
+    adminVerifyProfessionalWorker:{
+        type:String,
+        default:"false"
+    },
+    signupWithNormalPerson:{
+        type:String,
+        default:"true"
+    },
+    signupWithProfessionalWorker:{
+        type:String,
+        default:"false"
+    },
+    onlineStatus:{
+        type:String,
+        enum:['Online','Offline']
+    },
+    certificateVerify:{
+        type:String,
+        enum:['Verified','Not-Verified'],
+        default:'Not-Verified'
+    },
+    jwtToken:{
+        type:String
+    },
+    userName:{
+        type:String
+    },
+    profilePic:{
+        type:String,
+        default:''
+    },
+    name:{
+        type:String,
+        trim:true
+    },
+    email:{
+        type:String,
+        trim:true
+    },
+    country:{
+        type:String,
+        trim:true
+    },
+    appLanguage:{
+        type:String
+    },
+    speakLanguage:{
+        type:String
+    },
+    countryCode:{
+        type:String
+    },
+    mobileNumber:{
+        type:String
+    },
+    lastSeen:{
+        type:Date
+    },
+    deviceType:{
+        type:String
+    },
+    deviceToken:{
+        type:String
+    },
+    normalUserNotification:{
+        type:Boolean,
+        default:true
+    },
+    addresses:[{
+          address:{
+            type:String
+        },
+        landmark:{
+            type:String
+        },
+        lat:{
+            type:Number
+        },
+        long:{
+            type:Number
+        },
+        buildingAndApart:{
+            type:String
+        }
+    }],
+    professionalProfie:{
+        type:String,
+        default:''
+    },
+    totalEarning:{
+        type:Number
+    },
+    status:{
+        type:String,
+        enum:['ACTIVE','INACTIVE'],
+        default:'ACTIVE'
+    },
+    totalRating:{
+        type:Number,
+        default:0
+    },
+    avgRating:{
+        type:Number,
+        default:0
+    },
+    totalProfessionalOrder:{
+        type:String,
+        default:0
+    },
+    professiona1PersonUniqueId:{
+        type:String
+    },
+    userType:{
+        type:String,
+        enum:['User','Provider'],
+        default:'User'
+    },
+    dutyStatus:{
+        type:String,
+        enum:['On','Off'],
+        default:'On'
+    },
+    identityProof:{
+        type:String,
+        default:''
+    },
+    addressProof:{
+        type:String,
+        default:''
+    },
+    transportMode:{
+        type:String
+    },
+    transportModeAr:{
+        type:String
+    },
+    serviceCategory:{
+        type:String
+    },
+    serviceSubCategory:{
+        type:String
+    },
+    workImage:[],
+    drivingLicence:{
+        type:String,
+        default:''
+    },
+    categoryNameArray:[{
+        serviceCategory:{
+            type:String
+        },
+        portugueseCategoryName:{
+            type:String
+        },
+        serviceCategoryId:{ type: Schema.Types.ObjectId, ref: "categories" }
+
+    }],
+    subCategoryNameArray:[{
+        serviceSubCategory:{
+            type:String
+        },
+        portugueseSubCategoryName:{
+            type:String
+        },
+        serviceSubCategoryId:{ type: Schema.Types.ObjectId, ref: "subcategories" }
+
+    }]
+},{
+    timestamps:true
+})
+User.index({ location: '2dsphere' });
+User.plugin(mongoosePaginate)
+User.plugin(mongooseAggregatePaginate);
+module.exports=mongoose.model('user',User);

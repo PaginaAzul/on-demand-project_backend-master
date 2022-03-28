@@ -1,0 +1,384 @@
+{
+    "Email already exist": {
+        "pageNumber":"1",
+        "ar": "Este E-mail já está registrado na app",
+        "en":"Email already exist"
+    },
+    "Mobile number already exist": {
+        "pageNumber":"2",
+        "ar": "Este numero já está registrado na app",
+        "en":"Mobile Number already exist"
+    },
+    "Name is required": {
+        "pageNumber":"3",
+        "ar": "Nome é obrigatório",
+        "en":"Name is required"
+    },
+    "Country is required": {
+        "pageNumber":"6",
+        "ar": "País é obrigatório",
+        "en":"Country is required"
+    },
+    "Email is required": {
+        "pageNumber":"7",
+        "ar": "E-mail é obrigatório",
+        "en":"Email is required"
+    },
+    "App language is required": {
+        "pageNumber":"8",
+        "ar": "É obrigatório indicar o idioma da app",
+        "en":"App language is required"
+    },
+    "Speak language is required": {
+        "pageNumber":"9",
+        "ar": "É obrigatório indicar o idioma de comunicação",
+        "en":"Speak language is required"
+    },
+    "Country code is required": {
+        "pageNumber":"10",
+        "ar": "O código do país é obrigatório",
+        "en":"Country code is required"
+    },
+    "Mobile number is required": {
+        "pageNumber":"11",
+        "ar": "É necessário um número de celular",
+        "en":"Mobile number is required"
+    },
+    "You have successfully signed up":{
+        "pageNumber":"12",
+        "ar": "Registro concluído com sucesso",
+        "en":"You have successfully signed up"
+    },
+    "Mobile number is not registered":{
+        "pageNumber":"13",
+        "ar": "O número do celular não está registrado",
+        "en":"Mobile number is not registered"
+    },
+    "Your account have been disabled by administrator due to any suspicious activity":{
+        "pageNumber":"14",
+        "ar": "Sua conta foi desativada pelo administrador devido a qualquer atividade suspeita",
+        "en":"Your account have been disabled by administrator due to any suspicious activity"
+    },
+    "Signin successfully":{
+        "pageNumber":"15",
+        "ar": "Sessão iniciada com sucesso",
+        "en":"Signin successfully"
+    },
+    "Country code & mobile number is required":{
+        "pageNumber":"16",
+        "ar": "É necessário o código do país e o número do celular",
+        "en":"Country code & mobile number is required"
+    },
+    "Invalid Token":{
+        "pageNumber":"17",
+        "ar": "Informação inválido",
+        "en":"Invalid Token"
+    },
+    "Mobile number updated successfully":{
+        "pageNumber":"18",
+        "ar": "Número de celular atualizado com sucesso",
+        "en":"Mobile number updated successfully"
+    },
+    "Logout successfully":{
+        "pageNumber":"19",
+        "ar": "Sessão terminada com sucesso",
+        "en":"Logout successfully"
+    },
+    "App language changed successfully":{
+        "pageNumber":"20",
+        "ar": "Idioma do aplicativo alterado com sucesso",
+        "en":"App language changed successfully"
+    },
+    "User setting updated successfully":{
+        "pageNumber":"21",
+        "ar": "Configuração do usuário atualizada com sucesso",
+        "en":"User setting updated successfully"
+    },
+    "Address saved successfully":{
+        "pageNumber":"22",
+        "ar": "Endereço salvo com sucesso",
+        "en":"Address saved successfully"
+    },
+    "Address deleted successfully":{
+        "pageNumber":"23",
+        "ar": "Endereço excluído com sucesso",
+        "en":"Address deleted successfully"
+    },
+    "No data found":{
+        "pageNumber":"24",
+        "ar": "Nenhum dado encontrado",
+        "en":"No data found"
+    },
+    "Data found":{
+        "pageNumber":"24",
+        "ar": "dado encontrado",
+        "en":"Data found"
+    },
+    "Address list found successfully":{
+        "pageNumber":"25",
+        "ar": "Lista de endereços encontrada com sucesso",
+        "en":"Address list found successfully"
+    },
+    "Address updated successfully":{
+        "pageNumber":"26",
+        "ar": "Endereço atualizado com sucesso",
+        "en":"Address updated successfully"
+    },
+    "Profile updated successfully":{
+        "pageNumber":"27",
+        "ar": "Perfil atualizado com sucesso",
+        "en":"Profile updated successfully"
+    },
+    "Profile pic is required":{
+        "pageNumber":"28",
+        "ar": "Foto do perfil é necessária",
+        "en":"Profile pic is required"
+    },
+    "About us is required":{
+        "pageNumber":"29",
+        "ar": "Sobre nós é obrigatório",
+        "en":"About us is required"
+    },
+    "Request submitted successfully":{
+        "pageNumber":"30",
+        "ar": "Pedido enviado com sucesso",
+        "en":"Request submitted successfully"
+    },
+    "Order can be placed under 2000km":{
+        "pageNumber":"31",
+        "ar": "O pedido pode ser feito sob 2000 km",
+        "en":"Order can be placed under 2000km"
+    },
+    "Order submitted successfully":{
+        "pageNumber":"32",
+        "ar": "Pedido enviado com sucesso",
+        "en":"Order submitted successfully"
+    },
+    "User details found successfully":{
+        "pageNumber":"33",
+        "ar": "Detalhes do usuário encontrados com sucesso",
+        "en":"User details found successfully"
+    },
+    "Order List found successfully":{
+        "pageNumber":"34",
+        "ar": "Lista de pedidos encontrada com sucesso",
+        "en":"Order List found successfully"
+    },
+    "Offer submitted successfully":{
+        "pageNumber":"35",
+        "ar": "Proposta enviada com sucesso",
+        "en":"Offer submitted successfully"
+    },
+    "Internal server error":{
+        "pageNumber":"36",
+        "ar": "Erro do Servidor",
+        "en":"Internal server error"
+    },
+    "Congratulation! Work done":{
+        "pageNumber":"37",
+        "hi": "Parabéns! Trabalho feito",
+        "en":"Congratulation! Work done"
+    },
+    "Order canceled successfully":{
+        "pageNumber":"38",
+        "ar": "Pedido cancelado com sucesso",
+        "en":"Order canceled successfully"
+    },
+    "Something went wrong":{
+        "pageNumber":"39",
+        "ar": "Algo deu errado",
+        "en":"Something went wrong"
+    },
+    "Offer List found successfully":{
+        "pageNumber":"40",
+        "ar": "Lista de propostas encontrada com sucesso",
+        "en":"Offer List found successfully"
+    },
+    "Offer accepted successfully":{
+        "pageNumber":"41",
+        "ar": "Proposta aceite",
+        "en":"Proposta aceita com sucesso"
+    },
+    "Thank you for rating":{
+        "pageNumber":"42",
+        "ar": "Obrigado por dar sua opinião",
+        "en":"Thank you for rating"
+    },
+    "Invoice created":{
+        "pageNumber":"43",
+        "ar": "Factura criada",
+        "en":"Invoice created"
+    },
+    "Data found successfully":{
+        "pageNumber":"44",
+        "ar": "Dados encontrados com sucesso",
+        "en":"Data found successfully"
+    },
+    "You are not a Paginazul professional worker":{
+        "pageNumber":"45",
+        "ar": "Você não é um profissional da Paginazul",
+        "en":"You are not a Paginazul professional worker"
+    },
+    "Rating List found successfully":{
+        "pageNumber":"47",
+        "ar": "Lista de classificação encontrada com sucesso",
+        "en":"Rating List found successfully"
+    },
+    "Invoice details found":{
+        "pageNumber":"48",
+        "ar": "Detalhes da fatura encontrados",
+        "en":"Invoice details found"
+    },
+    "User status found successfully":{
+        "pageNumber":"49",
+        "ar": "Status do usuário encontrado com sucesso",
+        "en":"User status found successfully"
+    },
+    "This order is not in active stage":{
+        "pageNumber":"50",
+        "ar": "Este pedido não está ativo",
+        "en":"This order is not in active stage"
+    },
+    "Mobile number available":{
+        "pageNumber":"51",
+        "ar": "Número de celular disponível",
+        "en":"Mobile number available"
+    },
+    "Service category found successfully":{
+        "pageNumber":"52",
+        "ar": "Categoria de serviço encontrada com sucesso",
+        "en":"Service category found successfully"
+    },
+    "Sub category list found successfully":{
+        "pageNumber":"53",
+        "ar": "Lista de subcategorias encontrada com sucesso",
+        "en":"Sub category list found successfully"
+    },
+    "Sub-Sub category list found successfully":{
+        "pageNumber":"54",
+        "ar": "",
+        "en":"Sub-Sub category list found successfully"
+    },
+    "Provider signup request submitted successfully. Please wait for admin approval.":{
+        "pageNumber":"54",
+        "ar": "Solicitação de inscrição do provedor enviada com sucesso. Aguarde a aprovação do administrador.",
+        "en":"Provider signup request submitted successfully. Please wait for admin approval."
+    },
+    "Duty status has been updated successfully":{
+        "pageNumber":"54",
+        "ar": "O status de serviço foi atualizado com sucesso",
+        "en":"Duty status has been updated successfully"
+    },
+    "You can make a offer on this order now.":{
+        "pageNumber":"54",
+        "ar": "Você pode fazer uma proposta neste pedido agora.",
+        "en":"You can make a offer on this order now."
+    },
+    "Oops! order is not available at this moment":{
+        "pageNumber":"54",
+        "ar": "Opa! o pedido não está disponível de momento",
+        "en":"Oops! order is not available at this moment"
+    },
+    "Order withdraw request submitted successfully":{
+        "pageNumber":"54",
+        "ar": "Pedido de retirada de pedido enviado com sucesso",
+        "en":"Order withdraw request submitted successfully"
+    },
+    "Sorry! You have been already submitted order withdraw request on this order.":{
+        "pageNumber":"54",
+        "ar": "Desculpe! Você já recebeu uma solicitação de retirada de pedido neste pedido.",
+        "en":"Sorry! You have been already submitted order withdraw request on this order."
+    },
+    "Tracking Data Found":{
+        "pageNumber":"54",
+        "ar": "Dados de rastreamento encontrados",
+        "en":"Tracking Data Found"
+    },
+    "Request Submitted":{
+        "pageNumber":"54",
+        "ar": "Solicitação Enviada",
+        "en":"Request Submitted"
+    },
+    "Notification Count Found":{
+        "pageNumber":"54",
+        "ar": "Contagem de notificações encontrada",
+        "en":"Notification Count Found"
+    },
+    "You can not send any message as this order has been cancelled.":{
+        "pageNumber":"54",
+        "ar": "Você não pode enviar nenhuma mensagem, pois esse pedido foi cancelado.",
+        "en":"You can not send any message as this order has been cancelled."
+    },
+    "Offer Rejected Successfully":{
+        "pageNumber":"54",
+        "ar": "Proposta rejeitada",
+        "en":"Offer Rejected Successfully"
+    },
+    "Offer Updated Successfully":{
+        "pageNumber":"54",
+        "ar": "Proposta atualizada com sucesso",
+        "en":"Offer Updated Successfully"
+    },
+    "This mobile number is not registered with our system as user.":{
+        "pageNumber":"54",
+        "ar": "Este número de celular não está registrado em nosso sistema como usuário.",
+        "en":"This mobile number is not registered with our system as user."
+    },
+    "Record Found":{
+        "pageNumber":"54",
+        "ar": "Registro encontrado",
+        "en":"Record Found"
+    },
+    "Record found successfully":{
+        "pageNumber":"54",
+        "ar": "Registro encontrado com sucesso",
+        "en":"Record found successfully"
+    },
+    "Location Updated":{
+        "pageNumber":"54",
+        "ar": "Local Atualizado",
+        "en":"Location Updated"
+    },
+    "Chat history found successfully":{
+        "pageNumber":"54",
+        "ar": "Histórico de bate-papo encontrado com sucesso",
+        "en":"Chat history found successfully"
+    },
+    "You are ready for ride":{
+        "pageNumber":"54",
+        "ar": "Você está pronto",
+        "en":"You are ready for ride"
+    },
+    "Your minimum offer limit is 10":{
+        "pageNumber":"54",
+        "ar": "Seu limite mínimo de oferta é 10",
+        "en":"Your minimum offer limit is 10"
+    },
+    "You can not make new offer because you have already a active order":{
+        "pageNumber":"54",
+        "ar": "Você não pode fazer nova proposta porque tens um pedido ativo",
+        "en":"You can not make new offer because you have already a active order"
+    },
+    "Status Updated":{
+        "pageNumber":"54",
+        "ar": "Status Atualizado",
+        "en":"Status Updated"
+    },
+    "Category Found":{
+        "pageNumber":"54",
+        "ar": "Categoria Encontrada",
+        "en":"Category Found"
+    },
+    "Sub-category list found":{
+        "pageNumber":"54",
+        "ar": "Lista de subcategorias encontrada",
+        "en":"Sub-category list found"
+    },
+    "Thank you for contacting us":{
+        "pageNumber":"54",
+        "ar": "Obrigado por nos contatar",
+        "en":"Thank you for contacting us"
+    }
+    
+    
+}
